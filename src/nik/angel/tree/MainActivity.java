@@ -7,11 +7,14 @@ import android.view.Menu;
 import android.view.MotionEvent;
 
 public class MainActivity extends Activity {
+	
+	private Paper paper;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        paper = (Paper)findViewById(R.id.paper);
     }
 
     public boolean onTouchEvent(MotionEvent event) {
