@@ -67,7 +67,8 @@ public class Paper extends View{
 	
 	private void setupDrawing()
 	{
-		//get drawing area setup for interaction        
+		drawPath = new Path();
+		drawPaint = new Paint();       
 	}
 	
 	

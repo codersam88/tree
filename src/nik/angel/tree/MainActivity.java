@@ -14,7 +14,7 @@ public class MainActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        paper = (Paper)findViewById(R.id.paper);
+        //paper = (Paper)findViewById(R.id.paper);
     }
 
     public boolean onTouchEvent(MotionEvent event) {
