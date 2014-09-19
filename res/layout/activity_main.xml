@@ -6,14 +6,7 @@
 <nik.angel.tree.Paper
     android:id="@+id/paper"
     android:layout_width="fill_parent"
-    android:layout_height="wrap_content"    
-    android:layout_weight="90"
+    android:layout_height="fill_parent"    
     android:background="#FFFFFFFF" />
-<Button 
-    android:id = "@+id/savBtn"
-    android:layout_width= "wrap_content"
-    android:layout_height ="wrap_content"
-    android:layout_weight="10"
-    android:text="@string/save_btn_text"
-    />
+
 </LinearLayout>

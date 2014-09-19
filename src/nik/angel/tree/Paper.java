@@ -45,10 +45,12 @@ public class Paper extends View{
 	
 	public boolean onTouchEvent(MotionEvent mv)
 	{
+		
 		float touchX = mv.getX();
 		float touchY = mv.getY();
 		switch (mv.getAction()) {
 		case MotionEvent.ACTION_DOWN:
+			
 		    drawPath.moveTo(touchX, touchY);
 		    break;
 		case MotionEvent.ACTION_MOVE:
