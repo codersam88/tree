@@ -1,5 +1,6 @@
 package nik.angel.tree;
 
+import android.app.ActionBar;
 import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.Canvas;
@@ -42,10 +43,15 @@ public class Paper extends View{
 		canvasBitmap = Bitmap.createBitmap(w, h, Bitmap.Config.ARGB_8888);
 		drawCanvas = new Canvas(canvasBitmap);
 	}
-	
+																																																																																																																																																																																																																																																																																
 	public boolean onTouchEvent(MotionEvent mv)
 	{
-		
+//		MainActivity ma = new MainActivity();
+//		ActionBar ab = ma.getActionBar();
+//		if(ab.isShowing())
+//			ab.hide();
+//		else
+//			ab.show();																																																																																																																																																																																																									
 		float touchX = mv.getX();
 		float touchY = mv.getY();
 		switch (mv.getAction()) {
