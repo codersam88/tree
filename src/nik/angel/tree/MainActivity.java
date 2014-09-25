@@ -22,6 +22,7 @@ public class MainActivity extends Activity{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         paper = (Paper)findViewById(R.id.paper);
+        getActionBar().hide();
         
         
     }
