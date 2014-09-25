@@ -48,10 +48,10 @@ public class Paper extends View{
 	{
 //		MainActivity ma = new MainActivity();
 //		ActionBar ab = ma.getActionBar();
-//		if(ab.isShowing())
-//			ab.hide();
-//		else
-//			ab.show();																																																																																																																																																																																																									
+		if(MainActivity.bar.isShowing())
+			MainActivity.bar.hide();
+		else
+			MainActivity.bar.show();																																																																																																																																																																																																									
 		float touchX = mv.getX();
 		float touchY = mv.getY();
 		switch (mv.getAction()) {

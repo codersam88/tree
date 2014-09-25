@@ -15,15 +15,14 @@ import android.view.MotionEvent;
 public class MainActivity extends Activity{
 	
 	private Paper paper;
-	
+	static ActionBar bar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         paper = (Paper)findViewById(R.id.paper);
-        getActionBar().hide();
-        
+        bar = getActionBar();
         
     }
 
