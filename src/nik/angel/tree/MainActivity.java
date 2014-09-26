@@ -6,11 +6,8 @@ import android.os.Bundle;
 import android.provider.MediaStore;
 import android.app.ActionBar;
 import android.app.Activity;
-import android.app.Notification.Action;
-import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.MotionEvent;
 
 public class MainActivity extends Activity{
 	
